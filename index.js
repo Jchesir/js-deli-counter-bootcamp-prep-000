@@ -25,5 +25,5 @@ function currentLine(katzDeliLine) {
  newline.push(person)  
 });
 }
-return newline
+return 'The line is currently: ' + newline
 }
