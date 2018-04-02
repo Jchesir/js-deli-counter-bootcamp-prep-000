@@ -25,5 +25,5 @@ function currentLine(katzDeliLine) {
  newline.push(person)  
 });
 }
-
+return newline
 }
