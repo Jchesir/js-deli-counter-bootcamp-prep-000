@@ -21,8 +21,8 @@ function currentLine(katzDeliLine) {
 } else  {
   var newline = []
  katzDeliLine.forEach(function(customer,index){
-  var person = 
- newline.push() console.log(customer); 
+  var person = `${index+1}. ${customer}`
+ newline.push(person)  
 });
 }
 
