@@ -21,7 +21,7 @@ function currentLine(katzDeliLine) {
 } else  {
   var newline = []
  katzDeliLine.forEach(function(customer,index){
-  var person = `${index+1}. ${customer}`
+  var person = ` bagels ${index+1}. ${customer}`
  newline.push(person)  
 });
 }
