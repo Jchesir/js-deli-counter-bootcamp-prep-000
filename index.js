@@ -20,7 +20,9 @@ function currentLine(katzDeliLine) {
   return  "The line is currently empty."  
 } else  {
   var newline = []
-  
+ katzDeliLine.forEach(function(customer, index) {
+  console.log(customer);
+});
 }
 
 }
